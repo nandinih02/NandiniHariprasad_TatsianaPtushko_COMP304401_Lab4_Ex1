@@ -6,4 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".TestActivity">
 
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment_container2"
+        android:name="com.example.nandinihariprasad_tatsianaptushko_comp304401_lab4_ex1.TestDataFragment"
+        android:layout_width="417dp"
+        android:layout_height="552dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.43" />
 </androidx.constraintlayout.widget.ConstraintLayout>

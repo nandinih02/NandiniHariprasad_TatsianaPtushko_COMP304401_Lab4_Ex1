@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TestDataFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Enter Test Data"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/testID"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Test ID" />
+
+        <EditText
+            android:id="@+id/applicantID2"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Applicant ID" />
+
+        <EditText
+            android:id="@+id/examinerID2"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Examinier ID" />
+
+        <EditText
+            android:id="@+id/testResult"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Test Result" />
+
+        <EditText
+            android:id="@+id/testDate"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Test Date" />
+
+        <EditText
+            android:id="@+id/testRoute"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Test Route" />
+
+        <Button
+            android:id="@+id/btn_SaveTestData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save" />
+    </LinearLayout>
+</FrameLayout>
