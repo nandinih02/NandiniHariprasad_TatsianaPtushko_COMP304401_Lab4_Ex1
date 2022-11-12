@@ -14,7 +14,7 @@ import android.widget.Toast;
 public class TestDataFragment extends Fragment {
 
     private EditText TestID, ApplicantID, ExaminerID, TestResults, TestDate, TestRoute;
-    private Button btnSave;
+    private Button btnSaved;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -27,8 +27,8 @@ public class TestDataFragment extends Fragment {
         TestResults= view.findViewById(R.id.testCenter);
         TestDate= view.findViewById(R.id.examinerID);
         TestRoute = view.findViewById(R.id.testRoute);
-        btnSave = view.findViewById(R.id.btn_SaveTestData);
-        btnSave.setOnClickListener(new View.OnClickListener() {
+        btnSaved = view.findViewById(R.id.btn_SaveTestData);
+        btnSaved.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 int testId = Integer.parseInt(TestID.getText().toString());

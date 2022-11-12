@@ -42,7 +42,7 @@ public class ApplicantFragment extends Fragment implements View.OnClickListener 
                 ApplicantActivity.fragmentManager.beginTransaction().replace(R.id.fragment_container, new EnterApplicantFragment()).addToBackStack(null).commit();
                 break;
             case R.id.btn_viewApplicant:
-              //  ApplicantActivity.fragmentManager.beginTransaction().replace(R.id.fragment_container, new ViewApplicantFragment()).addToBackStack(null).commit();
+                ApplicantActivity.fragmentManager.beginTransaction().replace(R.id.fragment_container, new ViewApplicantFragment()).addToBackStack(null).commit();
                 break;
         }
     }

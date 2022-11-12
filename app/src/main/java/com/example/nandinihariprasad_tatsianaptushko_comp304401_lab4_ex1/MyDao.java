@@ -12,8 +12,12 @@ public interface MyDao {
     @Insert
     public void addApplicant(Applicant applicant);
 
-  //  @Query("select * from applicant")
-  //  public List<Applicant> getapplicants();
+    @Query("select * from applicant")
+    public List<Applicant> getapplicants();
     @Insert
     public void addTestData(TestData testData);
+
+    //@Query("select * from testData")
+    //public List<TestData> gettestdata();
+
 }

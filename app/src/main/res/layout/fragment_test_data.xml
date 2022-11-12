@@ -24,7 +24,8 @@
             android:layout_height="67dp"
             android:ems="10"
             android:inputType="textPersonName"
-            android:hint="Test ID" />
+            android:text=""
+            android:hint="Test ID"/>
 
         <EditText
             android:id="@+id/applicantID2"
@@ -32,7 +33,8 @@
             android:layout_height="61dp"
             android:ems="10"
             android:inputType="textPersonName"
-            android:hint="Applicant ID" />
+            android:text=""
+            android:hint="Applicant ID"/>
 
         <EditText
             android:id="@+id/examinerID2"
@@ -40,7 +42,8 @@
             android:layout_height="57dp"
             android:ems="10"
             android:inputType="textPersonName"
-            android:hint="Examinier ID" />
+            android:text=""
+            android:hint="Examinier ID"/>
 
         <EditText
             android:id="@+id/testResult"
@@ -48,7 +51,8 @@
             android:layout_height="58dp"
             android:ems="10"
             android:inputType="textPersonName"
-            android:hint="Test Result" />
+            android:text=""
+            android:hint="Test Result"/>
 
         <EditText
             android:id="@+id/testDate"
@@ -56,7 +60,8 @@
             android:layout_height="69dp"
             android:ems="10"
             android:inputType="textPersonName"
-            android:hint="Test Date" />
+            android:text=""
+            android:hint="Test Date"/>
 
         <EditText
             android:id="@+id/testRoute"
@@ -64,7 +69,8 @@
             android:layout_height="59dp"
             android:ems="10"
             android:inputType="textPersonName"
-            android:hint="Test Route" />
+            android:text=""
+            android:hint="Test Route"/>
 
         <Button
             android:id="@+id/btn_SaveTestData"
